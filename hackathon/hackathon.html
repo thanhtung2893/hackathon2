@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>hackathon</title>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  /* Layout */
+  header {
+    display: flex;
+    margin: 20px auto;
+    position: relative;
+    width: 1140px;
+  }
+  
+   
+  header .navigation {
+    padding: 15px 0 0 29px;
+    margin-left: 550px;
+  }
+  header .navigation li {
+    display: inline-block;
+    margin-right: 26px;
+  }
+  header .navigation li a {
+    color: #1f1f1f;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s color;
+  }
+  header .navigation li.active a,
+  header .navigation li a:hover {
+    color: #a3ef00;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .banner{
+    width: 100vw;
+    height: 450px;
+    background-size: cover;
+    background-image: url(/ảnh/banner1.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 50px;
+    object-fit: cover;
+    
+  }
+  .banner__sum{
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .banner__lorem{
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .banner__input{
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 4px;
+  }
+  .product__top{
+    display: flex;
+    margin-top: 70px;
+  }
+  .product__top--feature{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .product__top a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1000px;
+  }
+  .product__bot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27px;
+  }
+  .collection{
+    width: 450px;
+    height: 350px;
+    background-size: contain;
+    background-image: url(/ảnh/collection-item1.jpg);
+  }
+  .collection__left{
+    padding-left: 270px;
+    padding-top: 40px;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .collection{
+    display: flex;
+  }
+ .collection__right{
+    margin-left: 300px;
+   
+    
+ }
+  .collection__right--top{
+
+    width: 380px;
+    height: 200px;
+    background-size:contain;
+    
+    background-image:url(/ảnh/collection-item2.jpg);
+  }
+  .collection__right--bot{
+    width: 380px;
+    height: 200px;
+    background-size:contain;
+    background-image: url(/ảnh/collection-item3.jpg);
+  }
+  footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+  }
+  .bill{
+    color: #1f1f1f;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  
+</style>
+</head>
+<body>
+  <header class="clearfix">
+    <h1>Rikkei Fashion</h1>
+    <nav class="navigation">
+      <ul>
+        <li class="active"><a href="./">Home</a></li>
+        <li><a href="./">About</a></li>
+        <li><a href="./">Shop</a></li>
+        <li><a href="./">pages</a></li>
+        <li><a href="./">Blog</a></li>
+        <li><a href="./">Contact</a></li>
+      </ul>
+  </header>
+  <main>
+    <div class="banner">
+        <p class="banner__sum">Summer <br>Collection</p>
+        <p class="banner__lorem">Lorem ipsum dolor sit amet consectetur.</p>
+        <input class="banner__input" type="submit" value="SHOP IT NOW">
+
+    </div>
+    <div class="product">
+        <div class="product__top">
+            <p class="product__top--feature">Feature Product</p>
+             <a  href="">View All Product</a>
+             <i class="fa-solid fa-arrow-right"></i>
+
+        </div>
+        <div class="product__bot">
+            <div class="product__bot--item1">
+                <img width="270px" height="300px" src="/ảnh/product-item1.jpg" alt=""><br>
+                    <b>Full sleeve Cover Shirt</b><br>
+                    <p class="price">$40.00 </p>
+            </div>
+            <div class="product__bot--item2">
+                <img width="270px" height="300px" src="/ảnh/product-item2.jpg" alt=""><br>
+                    <b>Lorem ipsum dolor sit.</b><br>
+                    <p class="price">$38.00</p>
+            </div>
+            <div class="product__bot--item3">
+                <img width="270px" height="300px" src="/ảnh/product-item3.jpg" alt=""><br>
+                    <b>Lorem ipsum dolor sit.</b>
+                    <p class="price">$44.00</p>
+
+            </div>
+            <div class="product__bot--item4">
+                <img width="270px" height="300px" src="/ảnh/product-item4.jpg" alt=""><br>
+                <b>Lorem ipsum dolor sit amet.</b>
+                <p class="price">$33.00</p>
+
+            </div>
+                    
+
+        </div>
+
+    </div>
+    <div class="collection">
+        <div class="collection__left">
+            <p class="collection__left--conten">Lorem ipsum dolor.</p>
+            <h2>Street <br> Wear.</h2>
+            <p class="collection__left--conten">Lorem ipsum dolor sit.
+            Lorem ipsum dolor sit amet. <br>Lorem ipsum dolor sit amet consectetur.</p>
+            <b>shop colection</b>
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </div>
+        <div class="collection__right">
+            <div class="collection__right--top">
+                <p class="collection__right--conten">Lorem ipsum dolor.</p>
+                <h2>Basic<br>Shoes.</h2>
+                <b>shop colection</b>
+                <i class="fa-solid fa-arrow-right"></i>
+       
+
+            </div>
+            <div class="collection__right--bot">
+                <p class="collection__right--conten"></p>
+                <h2>Woolen<br>Hat</h2>
+                <b>shop colection</b>
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+  </main>
+  <footer>
+    <div class="ultras">
+      <h3>Ultras</h3>
+      <nav>
+        <ul>
+          <li><a class="bill" href="">about us</a></li>
+          <li><a class="bill" href="">Condition</a></li>
+          <li><a class="bill" href="">Our Journal</a></li>
+          <li><a class="bill" href="">careers</a></li>
+          <li><a class="bill" href="">program</a></li>
+          <li><a class="bill" href="">ultras Press</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="customer Service">
+      <h3>customer Service</h3>
+      <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+      </ul>
+
+    </div>
+    <div class="contact us">
+      <h3>contact us</h3>
+      <ul>
+        <li><p>do you have any question</p></li>
+        <li><a href="">thanhtung2893@gmai.com</a></li>
+        <li><p>a call</p></li>
+        <li><b>+57444110035</b></li>
+        
+      </ul>
+      
+      
+    </div>
+    <div class="last">
+      <h3>Forever 2018</h3>
+      <ul>
+        <li>Lorem ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </ul>
+
+    </div>
+  </footer>
+</body>
+</html>
